@@ -1,0 +1,128 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styles to apply to body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000000; /* Color de fondo de la navbar */
+    padding: 15px 20px; /* Espaciado interno */
+}
+
+.navbar-container {
+    display: flex; /* Usar flexbox para alinear elementos */
+    justify-content: space-between; /* Espacio entre logo y menú */
+}
+
+.navbar-logo {
+    color: white; /* Color del texto del logo */
+    font-size: 24px; /* Tamaño del texto del logo */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.navbar-menu {
+    list-style-type: none; /* Sin viñetas */
+}
+
+.navbar-menu li {
+    display: inline; /* Mostrar elementos en línea */
+    margin-left: 20px; /* Espaciado entre elementos del menú */
+}
+
+.navbar-menu a {
+    color: white; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.navbar-menu a:hover {
+    text-decoration: underline; /* Subrayar al pasar el mouse */
+}
+
+/* Otros */
+.flex-container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.user-card {
+    overflow: hidden;
+    width: 35rem;
+    margin: 20px; /* Espacio entre tarjetas */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.info-card {
+    overflow: hidden;
+    width: 35rem;
+    margin: 20px; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card-header {
+    padding: 50px;
+    background-color: #17A2B8;
+    color: white;
+}
+
+.info-card-header {
+    padding: 15px;
+    background-color: #333333;
+    color: white;
+}
+
+.card-body {
+    padding: 20px;
+    border-top: 2px solid #17A2B8;
+}
+
+.info-card-body {
+    padding: 20px;
+    border-top: 2px solid #333333;
+    height: 180px;
+    line-height: 1.8;
+}
+
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

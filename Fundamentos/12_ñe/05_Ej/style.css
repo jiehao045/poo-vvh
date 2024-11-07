@@ -1,0 +1,52 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    /* styles to apply to body */
+    
+    body {
+    
+    font-family: 'Roboto', sans-serif;
+    }
+    
+    .flex-container {
+    width: 1000px;
+    
+    }
+    
+    .user-card {
+    overflow: hidden;
+    }
+    
+    .card-header {
+        padding: auto;
+        
+    }
+    
+    .card-body {
+    padding: 20px;
+    }
+    
+    .card-body h1,
+    .card-body h2,
+    .card-body h3,
+    .card-body p {
+    margin: 20px 0px;
+    }
+    
+    .avatar-m {
+    border-radius: 50%;
+    
+    
+    }
+    
+    .icon-s {
+    height: 20px;
+    }
+    
+    a {
+
+    }
